@@ -9,6 +9,8 @@ import UIKit
 
 class LoginVC: UIViewController {
 
+    @IBOutlet var logo: UIImageView!
+    @IBOutlet var loginTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 

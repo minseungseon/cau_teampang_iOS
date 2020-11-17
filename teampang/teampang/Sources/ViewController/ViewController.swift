@@ -10,15 +10,16 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var icon: UIImageView!
-    @IBOutlet var loginButton: UIButton!
+    @IBOutlet var loginButton: UIRoundPrimaryButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        assignbackground()
-        
+        assignbackground()        
+       
         
     }
-    @IBAction func loginButton(_ sender: Any) {
-       
+    @IBAction func loginButton(_ sender: UIButton) {
+      
+        
         guard let loginVC = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as? LoginVC
         else{
             return
@@ -38,12 +39,12 @@ class ViewController: UIViewController {
           view.addSubview(imageView)
           self.view.sendSubviewToBack(imageView)
           self.icon.image=UIImage(named: "icon")
-        self.loginButton.setImage(UIImage(named: "loginButton"), for: .normal)
-    }
-    
-    func assignButtons() {
+        
         
     }
+    
+   
+    
 
 }
 

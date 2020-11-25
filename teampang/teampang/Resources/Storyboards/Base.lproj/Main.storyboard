@@ -176,6 +176,11 @@
                         <outlet property="findId" destination="AmA-fV-RKs" id="VAx-Xh-dRa"/>
                         <outlet property="loginButtonWidth" destination="vvB-gJ-Lsa" id="jwg-Z3-bN2"/>
                         <outlet property="loginTextField" destination="dxu-Ql-482" id="m9c-9V-DEM"/>
+                        <outlet property="loginTextFieldWidth" destination="UJ2-o2-rPC" id="VfB-6x-EJE"/>
+                        <outlet property="pwTextField" destination="7JV-BV-2dx" id="AyK-nr-Y9b"/>
+                        <outlet property="pwTextFieldWidth" destination="FmD-45-jt8" id="jR0-It-MJ6"/>
+                        <outlet property="spacing01" destination="dm3-mR-keP" id="KAs-EE-biv"/>
+                        <outlet property="spacing02" destination="h4Y-95-e6Z" id="qXa-JJ-74w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rxB-rR-USZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -311,6 +316,19 @@
                             <constraint firstItem="reE-ZY-Pby" firstAttribute="leading" secondItem="xVz-0e-i0m" secondAttribute="leading" constant="40" id="wuy-W6-5Fc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fieldWidth01" destination="7iR-mD-P4I" id="X1Z-oq-nCx"/>
+                        <outlet property="fieldWidth02" destination="wTV-aW-A0K" id="DsY-LX-FH0"/>
+                        <outlet property="fieldWidth03" destination="60g-i3-dp6" id="85T-FX-kbb"/>
+                        <outlet property="fieldWidth04" destination="aVH-3R-L2i" id="gZ5-vL-KTt"/>
+                        <outlet property="pwCheckTextField" destination="szw-TJ-Sp0" id="Ae8-Hi-OJ5"/>
+                        <outlet property="signupButtonWidth" destination="uHA-xP-YYr" id="3VP-f7-Ycl"/>
+                        <outlet property="spacing01" destination="Dm1-Bl-9Kv" id="diO-xi-pzl"/>
+                        <outlet property="spacing02" destination="h8k-Gz-qIe" id="fvv-L5-t5j"/>
+                        <outlet property="spacing03" destination="dBV-8h-TZo" id="gRS-Mg-Y3J"/>
+                        <outlet property="spacing04" destination="5oM-zv-tOf" id="94K-Z3-M7Z"/>
+                        <outlet property="spacing05" destination="YKO-aD-PMH" id="7mZ-TI-WuL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eL0-0R-BmA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

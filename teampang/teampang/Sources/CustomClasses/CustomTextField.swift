@@ -12,13 +12,41 @@ class CustomTextField: UITextField {
     
 }
 
-class PrimaryTextField: UITextField {
+class nameTextField: UITextField {
 
     //storyboard initialization
     required init(coder aDecoder: NSCoder){
         super.init(coder: aDecoder)!
+        self.placeholder = "이름"
         
+    }
+}
+
+class IdTextField: UITextField {
+
+    //storyboard initialization
+    required init(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)!
         self.placeholder = "아이디"
+        
+    }
+}
+
+class PwTextField: UITextField {
+
+    //storyboard initialization
+    required init(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)!
+        self.placeholder = "비밀번호"
+        
+    }
+}
+class PwCheckTextField: UITextField {
+
+    //storyboard initialization
+    required init(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)!
+        self.placeholder = "비밀번호 확인"
         
     }
 }

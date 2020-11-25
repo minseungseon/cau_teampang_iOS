@@ -11,13 +11,30 @@ class LoginVC: UIViewController {
 
     @IBOutlet var logo: UIImageView!
     @IBOutlet var loginTextField: UITextField!
+    @IBOutlet var loginButtonWidth: NSLayoutConstraint!
+    
+    @IBOutlet var findId: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.isNavigationBarHidden = true
+    }
     
-
+    @IBAction func signup(_ sender: Any) {
+        guard let signUpVC = self.storyboard?.instantiateViewController(withIdentifier: "SignUpVC") as? SignUpVC
+        else{
+            return
+        }
+        
+        self.navigationController?.pushViewController(signUpVC, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

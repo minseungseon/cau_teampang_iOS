@@ -10,6 +10,7 @@
 		9E0D275425610E8A000EA546 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D275325610E8A000EA546 /* LoginVC.swift */; };
 		9E0D275A2561175A000EA546 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D27592561175A000EA546 /* CustomButton.swift */; };
 		9E7E3F6925642CFE0087D496 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7E3F6825642CFE0087D496 /* CustomTextField.swift */; };
+		9E94FE77256E056600465BBB /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94FE76256E056600465BBB /* SignUpVC.swift */; };
 		9EB3521F255D201000C5D6D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB3521E255D201000C5D6D6 /* AppDelegate.swift */; };
 		9EB35221255D201000C5D6D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB35220255D201000C5D6D6 /* SceneDelegate.swift */; };
 		9EB35223255D201000C5D6D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB35222255D201000C5D6D6 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		9E0D275325610E8A000EA546 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9E0D27592561175A000EA546 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		9E7E3F6825642CFE0087D496 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		9E94FE76256E056600465BBB /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		9EB3521B255D201000C5D6D6 /* teampang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teampang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB3521E255D201000C5D6D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EB35220255D201000C5D6D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				9EB35222255D201000C5D6D6 /* ViewController.swift */,
 				9E0D275325610E8A000EA546 /* LoginVC.swift */,
+				9E94FE76256E056600465BBB /* SignUpVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E94FE77256E056600465BBB /* SignUpVC.swift in Sources */,
 				9EB35223255D201000C5D6D6 /* ViewController.swift in Sources */,
 				9EB3521F255D201000C5D6D6 /* AppDelegate.swift in Sources */,
 				9E7E3F6925642CFE0087D496 /* CustomTextField.swift in Sources */,
@@ -513,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S27FNL348L;
 				INFOPLIST_FILE = teampang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,6 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S27FNL348L;
 				INFOPLIST_FILE = teampang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

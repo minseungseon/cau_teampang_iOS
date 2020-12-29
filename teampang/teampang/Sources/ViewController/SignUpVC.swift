@@ -42,6 +42,9 @@ class SignUpVC: UIViewController, UITextFieldDelegate {
         self.title = "회원가입"
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
     }
+    
+    //MARK: 오토 레이아웃 처리 부분
+    
     func autoLayoutFunc() {
         let screenHeight = UIScreen.main.bounds.height
         let autoLayoutWidth = 45/896*screenHeight
